@@ -166,6 +166,14 @@ svg {
   font-weight: 500;
 }
 
+.product-img {
+  width: 100%;
+  padding-top: 150%;
+  background-image: url("./images/image-product-desktop.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
 @media (max-width: 767px) {
   article {
     margin-left: 12px;
@@ -175,5 +183,9 @@ svg {
   }
   section {
     gap: 24px;
+  }
+  .product-img {
+    padding-top: 97.7142857143%;
+    background-image: url("./images/image-product-mobile.jpg");
   }
 }/*# sourceMappingURL=style.css.map */
