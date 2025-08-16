@@ -172,6 +172,7 @@ svg {
   background-image: url("./images/image-product-desktop.jpg");
   background-size: cover;
   background-position: center;
+  transition: background-image 100ms ease-in-out;
 }
 
 @media (max-width: 767px) {
